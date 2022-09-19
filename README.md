@@ -319,7 +319,7 @@ $$
 > ${i-\frac12 ,j,k}$. We will assume that $\mathbf{g}\_{i,j,k}$ refers to
 > `g(i+j*n_x+k*n_y*n_x)`. Similarly, for the staggered grid subscripts
 > ${i-\frac12 ,j,k}$ we will assume that $\mathbf{D}^x\_{i-\frac12 ,j,k}(\ell)$ refers to the matrix
-> entry `Dx(i+j*n_x+k*n_y*n_x,l)`, where the $i-\frac12 $ has been _rounded down_.
+> entry `Dx(i+j*n_x+k*n_y*n_x,l)`, where the $i-\frac12$ has been _rounded down_.
 >
 
 We can similarly build matrices $\mathbf{D}^y$ and $\mathbf{D}^z$ and _stack_ these matrices
@@ -358,8 +358,8 @@ This leads to addressing our second assumption.
 
 At this point, we would _actually_ liked to have had that our input normals
 were given component-wise on the staggered grid. Then we could immediate stick
-them into $\mathbf{v}$. But this doesn't make much sense as each normal $\mathbf{n}_\ell$ _lives_
-at its associated point $\mathbf{p}_\ell$, regardless of any grids.
+them into $\mathbf{v}$. But this doesn't make much sense as each normal $\mathbf{n}\_\ell$ _lives_
+at its associated point $\mathbf{p}\_\ell$, regardless of any grids.
 
 To remedy this, we will distribute each component of each input normal $\mathbf{n}_\ell$
 to $\mathbf{v}$ at the corresponding staggered grid node location.

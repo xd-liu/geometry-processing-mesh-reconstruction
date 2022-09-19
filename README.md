@@ -373,11 +373,11 @@ $$
 \mathbf{x}\_{\frac12 ,0,0},  \\
 \mathbf{x}\_{1\frac12 ,0,0},   \\
 \mathbf{x}\_{\frac12 ,1,0},  \\
-\mathbf{x}_{1\frac12 ,1,0},   \\
-\mathbf{x}_{\frac12 ,0,1},  \\
-\mathbf{x}_{1\frac12 ,0,1},   \\
-\mathbf{x}_{\frac12 ,1,1}, \text{ and } \\
-\mathbf{x}_{1\frac12 ,1,1}
+\mathbf{x}\_{1\frac12 ,1,0},   \\
+\mathbf{x}\_{\frac12 ,0,1},  \\
+\mathbf{x}\_{1\frac12 ,0,1},   \\
+\mathbf{x}\_{\frac12 ,1,1}, \text{ and } \\
+\mathbf{x}\_{1\frac12 ,1,1}
 $$
 
 
@@ -388,10 +388,10 @@ We will distribute $n_x$ to these entries in $\mathbf{v}^x$ by _adding_ a partia
 of $n_x$ to each. I.e., 
 
 $$
-v^x_{\frac12 ,0,0}  = w_{ \frac12 ,0,0}\left(\mathbf{x}_{1,\frac14 ,\frac12 }\right)\ n_x,  \\
-v^x_{1\frac12 ,0,0} = w_{1\frac12 ,0,0}\left(\mathbf{x}_{1,\frac14 ,\frac12 }\right)\ n_x,  \\
+v^x\_{\frac12 ,0,0}  = w_{ \frac12 ,0,0}\left(\mathbf{x}\_{1,\frac14 ,\frac12 }\right)\ n_x,  \\
+v^x\_{1\frac12 ,0,0} = w_{1\frac12 ,0,0}\left(\mathbf{x}\_{1,\frac14 ,\frac12 }\right)\ n_x,  \\
 \vdots \\
-v^x_{1\frac12 ,1,1} = w_{1\frac12 ,1,1}\left(\mathbf{x}_{1,\frac14 ,\frac12 }\right)\ n_x.
+v^x\_{1\frac12 ,1,1} = w_{1\frac12 ,1,1}\left(\mathbf{x}\_{1,\frac14 ,\frac12 }\right)\ n_x.
 $$
 
 where $w_{iِ+\frac12 ,j,k}(\mathbf{p})$ is the trilinear interpolation _weight_ associate with

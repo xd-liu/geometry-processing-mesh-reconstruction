@@ -55,8 +55,7 @@ representation](https://en.wikipedia.org/wiki/Implicit%5Fsurface)_: where the
 unknown surface is defined as the
 [level-set](https://en.wikipedia.org/wiki/Level%5Fset) of some function $g: \mathbf{R}^3 \Rightarrow  \mathbf{R}$
 mapping all points in space to a scalar value. For example, we may define
-the surface $\partial \mathbf{S}$ of some solid, volumetric shape $\mathbf{S}$ to be all points $\mathbf{x} \in 
-\mathbf{R}^3 $ such that $g(x) = {\sigma}$, where we may arbitrarily set ${\sigma}=\frac12 $.
+the surface $\partial \mathbf{S}$ of some solid, volumetric shape $\mathbf{S}$ to be all points $\mathbf{x} \in \mathbf{R}^3 $ such that $g(x) = {\sigma}$, where we may arbitrarily set ${\sigma}=\frac12 $.
 
 $$
 \partial \mathbf{S} = \{\mathbf{x} \in  \mathbf{R}^3  | g(\mathbf{x})  = {\sigma}\}.

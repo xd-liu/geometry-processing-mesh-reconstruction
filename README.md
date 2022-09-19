@@ -78,10 +78,10 @@ For example, consider a point $\mathbf{x} = (\frac13 ,\frac14 ,\frac12)$ lying i
 bottom-most, front-most, left-most cell. We know the values at the eight
 corners. Trilinear interpolation can be understood as [linear
 interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) in the
-$x$-direction by $\frac13 $ on each $x$-axis-aligned edge, resulting in four values
+$x$-direction by $\frac13$ on each $x$-axis-aligned edge, resulting in four values
 _living_ on the same plane. These can then be linearly interpolated in the $y$
-direction by $\frac14 $ resulting in two points on the same line, and finally in the
-$z$ direction by $\frac12 $ to get to our evaluation point $(\frac13 ,\frac14 ,\frac12 )$.
+direction by $\frac14$ resulting in two points on the same line, and finally in the
+$z$ direction by $\frac12$ to get to our evaluation point $(\frac13 ,\frac14 ,\frac12 )$.
 
 An implicit surface stored as the level-set of a trilinearly interpolated grid
 can be _contoured_ into a triangle mesh via the [Marching Cubes

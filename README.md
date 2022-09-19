@@ -370,9 +370,9 @@ staggered grid corresponding to $\mathbf{D}^x$, in between the eight staggered g
 locations:
 
 $$
-\mathbf{x}_{\frac12 ,0,0},  \\
-\mathbf{x}_{1\frac12 ,0,0},   \\
-\mathbf{x}_{\frac12 ,1,0},  \\
+\mathbf{x}\_{\frac12 ,0,0},  \\
+\mathbf{x}\_{1\frac12 ,0,0},   \\
+\mathbf{x}\_{\frac12 ,1,0},  \\
 \mathbf{x}_{1\frac12 ,1,0},   \\
 \mathbf{x}_{\frac12 ,0,1},  \\
 \mathbf{x}_{1\frac12 ,0,1},   \\

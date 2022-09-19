@@ -180,7 +180,10 @@ $$
 $$
 
 $$
-\vphantom{\left(\begin{array}{c}0\\{0}\\{0}\end{array}\right)}
+\vphantom{\left(\begin{array}{c}
+0\\
+0\\
+0\end{array}\right)}
 $$
 
 $$

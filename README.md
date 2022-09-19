@@ -150,7 +150,7 @@ Let us start by making two assumptions:
 
   1. we know how to compute ${\nabla}g$ at each node location $\mathbf{x}_{i,j,k}$, and
   2. our input points $\mathbf{P}$ all lie perfectly at grid nodes: 
-  $\exists\ \mathbf{x}_{i,j,k} = \mathbf{p}_\ell$.
+  $\exists\ \mathbf{x}_{i,j,k}$ = $\mathbf{p}_\ell$.
 
 We will find out these assumptions are not realistic and we will have to relax
 them (i.e., we **_will not_** make these assumptions in the completion of the

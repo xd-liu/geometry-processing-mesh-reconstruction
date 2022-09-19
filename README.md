@@ -172,7 +172,10 @@ $$
 $$
 {\nabla}g(\mathbf{x}_{i,j,k}) = \mathbf{v}_{i,j,k} := \begin{cases}
   \mathbf{n}_\ell & \text{ if $\exists\ \mathbf{p}_\ell = \mathbf{x}_{i,j,k}$}, \\
-  \left(0\right) & \text{ otherwise}.
+  \left(\begin{array}{c}
+    0\\
+    0\\
+    0\end{array}\right) & \text{ otherwise}.
 \end{cases}
 $$
 

@@ -68,13 +68,12 @@ On the computer, it is straightforward
 function. We define a regular 3D grid of
 [voxels](http://en.wikipedia.org/wiki/Voxel) containing at least the [bounding
 box](https://en.wikipedia.org/wiki/Minimum%5Fbounding%5Fbox) of $\mathbf{S}$. At each
-node in the grid $\mathbf{x}_{i,j,k}$ we store the value of the implicit function
-$g(\mathbf{x}_{i,j,k})$. This defines $g$ _everywhere_ in the grid via [trilinear
+node in the grid $\mathbf{x}_{i,j,k}$ we store the value of the implicit function $g(\mathbf{x}_{i,j,k})$. This defines $g$ *everywhere* in the grid via [trilinear
 interpolation](https://en.wikipedia.org/wiki/Trilinear_interpolation). 
 
 ![](images/trilinear-interpolation.jpg)
 
-For example, consider a point $\mathbf{x} = (\frac13 ,\frac14 ,\frac12 )$ lying in the middle of the
+For example, consider a point $\mathbf{x} = (\frac13 ,\frac14 ,\frac12)$ lying in the middle of the
 bottom-most, front-most, left-most cell. We know the values at the eight
 corners. Trilinear interpolation can be understood as [linear
 interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) in the

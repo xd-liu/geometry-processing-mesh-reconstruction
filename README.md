@@ -169,7 +169,8 @@ $$
   \left(\begin{array}{c}
     0\\
     0\\
-    0\end{array}\right) & \text{ otherwise}.
+    0
+    \end{array}\right) & \text{ otherwise}.
 \end{cases}
 $$
 

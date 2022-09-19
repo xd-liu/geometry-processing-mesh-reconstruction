@@ -400,10 +400,10 @@ The trilinear interpolation weights so that:
 
 $$
 n_x =   \\
-  w_{ \frac12 ,0,0}( \mathbf{x}_{1,\frac14 ,\frac12 } ) \  v^x_{ \frac12 ,0,0} +  \\
-  w_{1\frac12 ,0,0}( \mathbf{x}_{1,\frac14 ,\frac12 } ) \  v^x_{1\frac12 ,0,0} +  \\
+  w_{ \frac12 ,0,0}( \mathbf{x}\_{1,\frac14 ,\frac12 } ) \  v^x\_{ \frac12 ,0,0} +  \\
+  w_{1\frac12 ,0,0}( \mathbf{x}\_{1,\frac14 ,\frac12 } ) \  v^x\_{1\frac12 ,0,0} +  \\
   \vdots \\
-  w_{1\frac12 ,1,1}( \mathbf{x}_{1,\frac14 ,\frac12 } )\ v^x_{1\frac12 ,1,1}.
+  w_{1\frac12 ,1,1}( \mathbf{x}\_{1,\frac14 ,\frac12 } )\ v^x\_{1\frac12 ,1,1}.
 $$
 
 
@@ -571,8 +571,7 @@ You will need to _distribute_ the given normals `N` onto the staggered grid
 values in `v` via sparse trilinear interpolation matrices `Wx`, `Wy` and `Wz`
 for each staggered grid. 
 
-Then you will need to construct and solve the linear system $\mathbf{G}^{\mathsf T} \mathbf{G}
-\mathbf{g} = \mathbf{G}^{\mathsf T} \mathbf{v}$.
+Then you will need to construct and solve the linear system $\mathbf{G}^{\mathsf T} \mathbf{G} \mathbf{g} = \mathbf{G}^{\mathsf T} \mathbf{v}$.
 
 Determine the iso-level `sigma` to extract from the `g`.
 

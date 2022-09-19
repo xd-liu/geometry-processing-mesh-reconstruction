@@ -298,8 +298,7 @@ live on a $5\times 4$ yellow, staggered grid:
 
 Letting $\mathbf{g} \in  \mathbf{R}^{n_xn_yn_z \times  1}$ be column vector of function values on the
 _primary grid_ (blue in the example pictures), we can construct a sparse matrix
-$\mathbf{D}^x \in  \mathbf{R}^{(n_x-1)n_yn_z \times  n_xn_yn_z}$ so that each row $\mathbf{D}^x_{i-\frac12 ,j,k} \in 
-\mathbf{R}^{1 \times  n_xn_yn_z}$ computes the partial derivative at the corresponding
+$\mathbf{D}^x \in  \mathbf{R}^{(n_x-1)n_yn_z \times  n_xn_yn_z}$ so that each row $\mathbf{D}^x\_{i-\frac12 ,j,k} \in \mathbf{R}^{1 \times  n\_xn\_yn\_z}$ computes the partial derivative at the corresponding
 staggered grid location $\mathbf{x}_{i-\frac12 ,j,k}$. The $\ell$th entry in that row receives a
 value only for neighboring primary grid nodes:
 
@@ -317,9 +316,9 @@ $$
 > 
 > Now, obviously in our code we cannot _index_ the column vector $\mathbf{g}$ by a
 > triplet of numbers $\{i,j,k\}$ or the rows of $\mathbf{D}^x$ by the triplet
-> ${i-\frac12 ,j,k}$. We will assume that $\mathbf{g}_{i,j,k}$ refers to
+> ${i-\frac12 ,j,k}$. We will assume that $\mathbf{g}\_{i,j,k}$ refers to
 > `g(i+j*n_x+k*n_y*n_x)`. Similarly, for the staggered grid subscripts
-> ${i-\frac12 ,j,k}$ we will assume that $\mathbf{D}^x_{i-\frac12 ,j,k}(\ell)$ refers to the matrix
+> ${i-\frac12 ,j,k}$ we will assume that $\mathbf{D}^x\_{i-\frac12 ,j,k}(\ell)$ refers to the matrix
 > entry `Dx(i+j*n_x+k*n_y*n_x,l)`, where the $i-\frac12 $ has been _rounded down_.
 >
 

@@ -188,7 +188,10 @@ $$
 
 $$
 {\nabla}g(\mathbf{x}\_{i,j,k}) = \mathbf{v}\_{i,j,k} := \begin{cases}
-  \vphantom{\left(\begin{array}{c}0\\{0}\\{0}\end{array}\right)}
+  \vphantom{\left(\begin{array}{c}
+  0\\
+  0\\
+  0\end{array}\right)}
   \mathbf{n}\_\ell & \text{ if $\exists\ \mathbf{p}\_\ell = \mathbf{x}\_{i,j,k}$}, \\
   \left(\begin{array}{c}
     0\\

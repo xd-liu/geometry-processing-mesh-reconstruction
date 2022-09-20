@@ -162,29 +162,6 @@ _live_ at grid points. This leads to a very simple set of linear equations to
 define a function $g$ with a gradient equal to the surface normal at the
 surface and zero gradient away from the surface:
 
-$$
-\begin{array}{c}
-    0\\
-    0\\
-    0\end{array}
-$$
-
-$$
-{\nabla}g(\mathbf{x}\_{i,j,k}) = \mathbf{v}\_{i,j,k} := \begin{cases}
-  \mathbf{n}\_\ell & \text{ if $\exists\ \mathbf{p}\_\ell = \mathbf{x}\_{i,j,k}$}, \\
-  \left(\begin{array}{c}
-    0\\
-    0\\
-    0\end{array}\right) & \text{ otherwise}.
-\end{cases}
-$$
-
-$$
-\vphantom{\left(\begin{array}{c}
-0\\
-0\\
-0\end{array}\right)}
-$$
 
 $$
 {\nabla}g(\mathbf{x}\_{i,j,k}) = \mathbf{v}\_{i,j,k} := \begin{cases}

@@ -276,7 +276,7 @@ _before_ it in the $x$-direction then divided by the spatial distance between
 adjacent nodes $h$ (i.e., the grid step size):
 
 $$
-\frac{\partial g(\mathbf{x}_{i-\frac12 ,j,k})}{\partial x} = \frac{g_{i,j,k} - g_{i-1,j,k}}{h},
+\frac{\partial g(\mathbf{x}\_{i-\frac12 ,j,k})}{\partial x} = \frac{g\_{i,j,k} - g\_{i-1,j,k}}{h},
 $$
 
 
